@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color:rgb(26, 25, 25);
+    box-sizing: border-box;
+    background-color: rgb(150, 211, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid 1px #000;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+    .container{
+     flex-wrap: wrap;
+     padding: 10px;
+     width: 20%;
+     border-radius: 10px;
+     margin: 25px; 
+     display: flex;
+        justify-content: center;
+    
+    .calculator{
+        background-color: aliceblue; 
+        display: flex;
+        justify-content: center;
+       flex-direction: column;
+      
+       flex-wrap: wrap; 
+       flex: 1;
+       height: 24rem;
+       width: auto;
+       padding: 2px;
+       border-radius: 5px;
+        .inputfield{
+            height: 3rem;
+    width: 13rem;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 30px;
+    padding: 3px; 
+            
+           }
+        
+           .main-result ,.one , .two ,.three , .four {
+        display: flex;
+        justify-content: space-around;
+
+       }    
+
+    }
+   
+    }
+}
+
+.btn{
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    font-size: 25px;
+    margin: 2px;
+    border: solid 2px;
+    border-radius: 10px;
+    width: 60px;
+    cursor: pointer;
+} 
+
